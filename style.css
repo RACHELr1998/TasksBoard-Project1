@@ -1,0 +1,182 @@
+body{
+    background-image: url(ASSETS/img/tile.jpg);
+}
+
+h1{
+    text-align: center;
+    font-family: cool font;
+    font-size: xx-large;
+    padding: 15px;
+}
+
+@font-face{
+    src: url(ASSETS/Scott\ Room.ttf);
+    font-family: cool font;
+}
+
+#divCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#divBackground{
+    background-image: url(ASSETS/img/formbg.jpg);
+    background-repeat: repeat-y;
+    width: 35vw;
+    height: 30vh;
+    border-radius: 20px;
+}
+
+textarea{
+  background: transparent;
+  width: 29vw;
+  height: 15vh;
+  border: none !important;
+  font-size: x-large;
+  font-family: font broad;
+  margin-top: 3.3%;
+  margin-left: 15%;
+  margin-right: 0.5%;
+  margin-bottom: 0; 
+} 
+
+@font-face{
+    src: url(ASSETS/IndieFlower-Regular.ttf);
+    font-family: font broad;
+}
+  
+.centerInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+input{
+    background: transparent;
+    border-radius: 10px;
+    height: 4vh;
+    width: 20%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 3.3%;
+    border: 1px solid black;  
+}
+
+span{
+    font-size: medium;
+    font-family: font span;
+}
+
+@font-face{
+    src: url(ASSETS/Aotani-Bold.OTF.otf);
+    font-family: font span;
+}
+
+.flexButton{
+    display: flex;
+    justify-content: space-between;
+}
+
+#button{
+    background-color: chocolate;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid chocolate;
+    font-family: monospace;
+    height: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 2px 2px 2px grey; 
+}
+
+li{
+    background-image: url(ASSETS/img/notebg.png);
+    height: 40vh;
+    width: 160px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 1%;
+    text-align: justify;
+    list-style-type: none;
+    background-repeat: no-repeat;
+    display: inline-block; 
+}
+
+ .fadeIn:last-of-type{
+    animation: fadeInAnimation ease 3s;  
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.hover:hover .close-button{
+ visibility: visible;
+}
+
+.buttonDelete{
+ visibility: hidden;
+ padding-left: 130px;
+ padding-top: 15px;
+ position: absolute;
+ height: 40vh;
+ width: 150px;
+
+}
+
+.close-button{
+    border: none;
+    background-color: transparent;
+}
+
+.textListItem{
+    text-align: justify;
+    overflow: auto;
+    word-break:normal;
+    height: 150px;
+    width: 150px;
+    font-size: x-large;
+    font-family: font english task;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 20% ;
+    margin-bottom: 2%;
+   
+}
+
+@font-face{
+    src: url(ASSETS/GrapeNuts-Regular.ttf);
+    font-family: font english task;
+}
+
+.dateListItem{
+    line-height: normal;
+    margin: 0;
+    padding-left: 8%;
+    font-size: small;
+    margin-top: 2%; 
+}
+
+.timeListItem{
+    line-height: normal; 
+    margin: 0 auto; 
+    padding-left: 8%; 
+    font-size: small;  
+}
+
+
+
+
+
+
